@@ -1,0 +1,12 @@
+        <div class='col-6'>
+          <h4>{{ state['abbr'] }}</h4>
+
+          <h4>{{ state['capital'] }}</h4>
+          {% if 'geo' in state %} 
+            <span> {{ state['geo'] }} </span>
+          {% endif %}
+        </div>
+        <div class='col-6'>
+          <button type="button" class="btn btn-success">Success</button>
+
+        </div>
